@@ -18,11 +18,11 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    background: rgba(255, 255, 255, 0.071);
+    background: rgba(23, 0, 103, 0.379);
     border-radius: 50%;
     pointer-events: none;
     transform: translate(-50%, -50%);
-    animation: rippleAnim 0.6s ease-out forwards;
+    animation: rippleAnim 0.9s ease-out forwards;
   }
 
   @keyframes rippleAnim {
@@ -59,6 +59,7 @@ body {
     display: block;
     position: fixed;
     inset: 0;
+    max-width: 100dvw!important;
     z-index: -1; /* sits behind page content */
   }
 *{
@@ -80,9 +81,10 @@ body {
     transform: translateY(1.1vw);
   }
 }
-.rect{
-  background: url(img/nm2.png) no-repeat center center;
-  background-size: contain;
+.ram-bg{
+  background: url(img/ram-bg.jpg);
+  background-size: fit;
+  background-repeat: repeat;
 }
 
 .spin{
