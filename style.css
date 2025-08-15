@@ -87,6 +87,16 @@ body {
   background-repeat: repeat;
 }
 
+.bg-fl{
+  background-repeat: repeat-x;
+background-size: contain;}
+
+
+.hldi-bg{
+  background: url(img/hldi-bg.png);
+ background-size: fit;
+  background-repeat: repeat;
+}
 .spin{
   animation: rotate 8s linear infinite;;
 }
